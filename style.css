@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  font-family: "outfit", "sans-serif";
+  font-optical-sizing: auto;
+}
+.container {
+  /* width: 200px; */
+  /* height: auto; */
+  border-radius: 5px;
+}
+.qr-code {
+  /* height: auto; */
+  /* width: 180px; */
+  border-radius: 5px;
+}
+h2 {
+  width: 170px;
+}
+.container::after {
+  background-color: hsla(217, 45%, 22%, 0.018);
+  content: "";
+  position: absolute;
+  top: 10px;
+  width: 110%;
+  height: 100%;
+  z-index: -3;
+  border-radius: 5px;
+}
